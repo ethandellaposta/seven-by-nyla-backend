@@ -1,8 +1,8 @@
 {
-  "connection": "default",
-  "collectionName": "articles",
+  "kind": "collectionType",
+  "collectionName": "blogs",
   "info": {
-    "name": "article"
+    "name": "blog"
   },
   "options": {
     "increments": true,
@@ -10,26 +10,25 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "content": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     },
     "image": {
       "model": "file",
       "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
       "plugin": "upload",
-      "required": true
-    },
-    "published_at": {
-      "type": "date",
-      "required": true
+      "required": false
     },
     "category": {
       "model": "category",
-      "via": "articles"
+      "via": "blogs"
     }
   }
 }

@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "categories",
   "info": {
@@ -13,9 +14,9 @@
       "type": "string",
       "required": true
     },
-    "articles": {
+    "blogs": {
       "via": "category",
-      "collection": "article"
+      "collection": "blog"
     }
   }
 }
