@@ -13,10 +13,6 @@
     "name": {
       "type": "string",
       "required": true
-    },
-    "blogs": {
-      "via": "category",
-      "collection": "blog"
     }
   }
 }

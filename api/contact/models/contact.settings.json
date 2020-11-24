@@ -11,6 +11,9 @@
   "attributes": {
     "email": {
       "type": "email"
+    },
+    "instagram": {
+      "type": "string"
     }
   }
 }
