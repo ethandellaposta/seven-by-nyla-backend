@@ -17,7 +17,7 @@ Once you have created these accounts you can deploy your instance by clicking on
 
 ### Features
 
-  - 2 Collection types: Article, Category
+  - 2 Collection types: Portfolio items, Services, About, Contact
   - 2 Created articles
   - 2 Created categories
   - Permissions set to `true` for article and category
