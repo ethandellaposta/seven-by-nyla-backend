@@ -8,8 +8,8 @@ This starter contains the collection type and configuration to get you up and ru
 
 To deploy this Strapi instance you'll need:
 
-- [A Heroku account](https://signup.heroku.com/) for free
-- [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
+- [A Heroku account](https://signup.heroku.com/)
+- [A Cloudinary account for saving images](https://cloudinary.com/users/register/free)
 
 Once you have created these accounts you can deploy your instance by clicking on this button
 
