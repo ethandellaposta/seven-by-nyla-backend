@@ -1,6 +1,6 @@
 # Strapi Starter Blog
 
-Strapi starter for creating a blog with Strapi.
+Strapi starter for creating a blog with Strapi
 
 This starter contains the collection type and configuration to get you up and running with a simple blog.
 
